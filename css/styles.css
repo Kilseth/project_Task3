@@ -1,5 +1,20 @@
-html,
-body {
+/* Font*/
+@font-face {
+  font-family: Outfit;
+  src: url(https://fonts.google.com/specimen/Outfit);
+  font-weight: 400, 700;
+}
+
+* {
   font-size: 16px;
   margin: 0;
+  padding: 0;
 }
+
+/*Header*/
+header {
+  background: #97137b;
+  padding: 0.8em;
+}
+
+/*Main*/
