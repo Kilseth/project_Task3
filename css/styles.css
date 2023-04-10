@@ -18,3 +18,25 @@ header {
 }
 
 /*Main*/
+main {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+/*Images*/
+.img {
+  justify-self: flex-end;
+  align-self: center;
+  width: 20em;
+  margin: 1em;
+  border: #030303 solid 1.5px;
+}
+
+#domination {
+  background-image: url(images\confuddled.gif);
+}
+
+#domination .img-hover :hover {
+  opacity: 0%;
+}
